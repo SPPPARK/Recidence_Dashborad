@@ -11,15 +11,6 @@ Original file is located at
 import folium.plugins
 print(folium.plugins)
 
-!pip install pyodbc
-
-!sudo apt-get update
-!sudo apt-get install -y unixodbc-dev
-!curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
-!curl https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/prod.list | sudo tee /etc/apt/sources.list.d/mssql-release.list
-!sudo apt-get update
-!sudo ACCEPT_EULA=Y apt-get install -y msodbcsql17
-
 import streamlit as st
 from streamlit.components.v1 import html
 from sqlalchemy import create_engine
