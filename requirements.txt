@@ -10,4 +10,4 @@ ipywidgets
 json
 IPython.display
 folium
-from folium.plugins import MarkerCluster
+folium.plugins
