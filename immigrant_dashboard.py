@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1Uv0rKwW84Nn22LJ8mIV85onjfyAhvI7D
 """
 
-!pip install streamlit pandas geopandas folium branca
 
 import folium.plugins
 print(folium.plugins)
