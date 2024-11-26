@@ -1,0 +1,13 @@
+streamlit
+streamlit.components.v1
+sqlalchemy
+pyodbc
+pandas
+plotly.graph_objects
+requests
+ipyleaflet
+ipywidgets
+json
+IPython.display
+folium
+from folium.plugins import MarkerCluster
