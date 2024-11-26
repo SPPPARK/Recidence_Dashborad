@@ -6,6 +6,5 @@ plotly
 requests
 ipyleaflet
 ipywidgets
-json
 IPython
 folium
